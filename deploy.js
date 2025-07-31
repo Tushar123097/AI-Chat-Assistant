@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+
+console.log('🚀 AI Chat App - GitHub Deployment Guide');
+console.log('========================================\n');
+
+console.log('📋 Steps to deploy on GitHub:');
+console.log('');
+console.log('1️⃣  Initialize Git repository:');
+console.log('   git init');
+console.log('   git add .');
+console.log('   git commit -m "Initial commit: AI Chat App by Tushar Parajapti"');
+console.log('');
+console.log('2️⃣  Create GitHub repository:');
+console.log('   - Go to github.com/new');
+console.log('   - Repository name: "AI-Chat-Assistant"');
+console.log('   - Description: "AI Chat App powered by Google Gemini - Created by Tushar Parajapti"');
+console.log('   - Make it Public');
+console.log('   - Click "Create repository"');
+console.log('');
+console.log('3️⃣  Push to GitHub:');
+console.log('   git remote add origin https://github.com/YOUR-USERNAME/AI-Chat-Assistant.git');
+console.log('   git branch -M main');
+console.log('   git push -u origin main');
+console.log('');
+console.log('4️⃣  Enable GitHub Pages:');
+console.log('   - Go to repository Settings');
+console.log('   - Scroll to "Pages" section');
+console.log('   - Source: "GitHub Actions"');
+console.log('   - The workflow will auto-deploy your app');
+console.log('');
+console.log('5️⃣  Your app will be live at:');
+console.log('   https://YOUR-USERNAME.github.io/AI-Chat-Assistant');
+console.log('');
+console.log('🎉 Anyone can now use your AI Chat App!');
+console.log('');
+console.log('💡 For Vercel deployment:');
+console.log('   - Connect your GitHub repo to Vercel');
+console.log('   - Add GEMINI_API_KEY environment variable');
+console.log('   - Auto-deploy on every push');
+console.log('');
+console.log('📖 See README.md for complete instructions');
