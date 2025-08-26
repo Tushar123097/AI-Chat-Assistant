@@ -4,7 +4,7 @@ A modern, full-stack AI chat application powered by Google Gemini AI, created by
 
 ## 🌟 **Live Demo**
 
-🔗 **Try it now**: [https://your-username.github.io/AtsChecker](https://your-username.github.io/AtsChecker)
+🔗 **Try it now**: [https://ai-chat-assistant-tushar.netlify.app/)
 
 ## ✨ **Features**
 
